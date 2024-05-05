@@ -4,4 +4,5 @@ A basic restful service with Express to manage a mock list of movie genres that 
   - POST: "/api/genres" create a genres
   - DELETE:"/api/genres/:id" delete a genres
   - PUT:"/api/genres/:id" update a genres
+    
 Using "Express" framework for build BE server and "Joi" package for validation request inputs.
