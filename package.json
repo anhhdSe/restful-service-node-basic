@@ -1,0 +1,16 @@
+{
+  "name": "restful-service-node-basic",
+  "version": "1.0.0",
+  "description": "A basic restful service with Express to manage a mock list of movie genres that includes 4 API:\r   - GET: \"/api/genres\" get mock list\r   - POST: \"/api/genres\" create a genres\r   - DELETE:\"/api/genres/:id\" delete a genres\r   - PUT:\"/api/genres/:id\" update a genres",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "joi": "^17.13.1"
+  }
+}
