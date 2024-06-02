@@ -1,5 +1,5 @@
 const express = require("express");
-// const app = express() // This will not work when you seprate the route in seprated module
+// const app = express() // This will not work when you separate  the route in separated module
 
 // instead of working with app object, we working with router object
 const router = express.Router();
