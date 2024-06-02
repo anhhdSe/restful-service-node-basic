@@ -1,4 +1,4 @@
 const log = (req, res, next) => {
-  console.log("Logging ...");
+  console.log('Logging ...');
   next();
 };
