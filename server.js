@@ -1,9 +1,10 @@
 const mongoose = require('mongoose');
 const express = require('express');
 const app = express();
+const helmet = require('helmet');
 const genres = require('./routes/genres');
 const home = require('./routes/home');
-const helmet = require('helmet');
+const customers = require('./routes/customers');
 
 mongoose
   .connect('mongodb://localhost:27017/movies-genres')
@@ -20,6 +21,7 @@ app.use(helmet());
 app.use('/', home);
 // Routes start with /api/genres will use genres router
 app.use('/api/genres', genres);
+app.use('/api/customers', customers);
 
 const port = process.env.PORT || 3000;
 
